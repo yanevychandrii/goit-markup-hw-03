@@ -6,14 +6,58 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  width: 1440px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
 }
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
 }
 
 a {
   text-decoration: none;
+}
+
+.container {
+  max-width: 1128px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 156px;
+  margin-right: 156px;
+  display: flex;
+}
+
+.header-container {
+  display: flex;
+}
+
+.nav-tab {
+  display: flex;
+  margin-right: 332px;
+  padding: 24px 0;
+}
+
+.nav-list-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.contact-list-menu {
+  display: flex;
+  gap: 40px;
 }
 
 .logo {
@@ -24,6 +68,7 @@ a {
   text-transform: uppercase;
   line-height: 1.17;
   letter-spacing: 0.54px;
+  margin-right: 76px;
 }
 
 .logo:hover,
@@ -52,6 +97,7 @@ a {
 
 .contact-list {
   font-style: normal;
+  padding: 24px 0;
 }
 
 .contacts {
@@ -63,8 +109,14 @@ a {
   color: #404bbf;
 }
 
+.container-sect1 {
+  flex-direction: column;
+  position: relative;
+}
+
 .main-section {
   background-color: #2e2f42;
+  height: 600px;
 }
 
 .main-title {
@@ -74,6 +126,7 @@ a {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  margin: 188px 472px 0;
 }
 
 .main-button {
@@ -85,6 +138,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  padding: 16px 32px;
 }
 
 .main-button:hover,
